@@ -1,12 +1,11 @@
-# gitignore all pickles
 *.pickle
-# except for
-!misc/doc2vec.pickle
-
-/exp
 *.db
 *.DS_Store
 *.ipynb_checkpoints
+
+# folders containing files too large
+/misc
+/exp
 
 # CUDA .gitignore
 *.i
