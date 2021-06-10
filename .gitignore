@@ -1,4 +1,8 @@
+# gitignore all pickles
 *.pickle
+# except for
+!misc/doc2vec.pickle
+
 *.db
 *.DS_Store
 *.ipynb_checkpoints
