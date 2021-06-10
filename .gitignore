@@ -3,6 +3,7 @@
 # except for
 !misc/doc2vec.pickle
 
+exp/*
 *.db
 *.DS_Store
 *.ipynb_checkpoints
